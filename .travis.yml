@@ -1,18 +1,18 @@
 notifications:
-	email: false
+  email: false
 
 script:
-	- cd src
-	- ../bin/hugo
+  - cd src
+  - ../bin/hugo
 
 deploy:
-	local_dir: public
-	repo: dakodun/dakodun.github.io
-	target_branch: master
-	provider: pages
-	skip_cleanup: true
-	github_token: $GITHUB_TOKEN
-	email: github@chikin.net
-	name: "dakodun"
-	on:
-		branch: master
+  local_dir: public
+  repo: dakodun/dakodun.github.io
+  target_branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  email: github@chikin.net
+  name: "dakodun"
+  on:
+    branch: master
