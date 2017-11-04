@@ -1,0 +1,12 @@
+name = "chikin"
+license = "ZLib"
+licenselink = ""
+description = ""
+homepage = ""
+tags = []
+features = []
+min_version = "0.30"
+
+[author]
+  name = ""
+  homepage = ""

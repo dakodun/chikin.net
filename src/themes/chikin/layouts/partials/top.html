@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	{{ partial "head" . }}
+	
+	<body>
+		<div id="site-wrapper">
+			<div id="content">
+				{{ partial "header" . }}
+				
+				<div id="content-body">
+					<div id="content-body-fadeline"></div>
+					
+					{{ partial "navigation" . }}
+					
+					<div id='body-pagetitle'>
+						{{ .Params.pagetitle }}
+					</div>

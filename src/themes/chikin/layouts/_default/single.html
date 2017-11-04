@@ -1,0 +1,10 @@
+{{ partial "top" . }}
+					<div id='body-main'>
+						<article>
+							<h1>{{ .Params.posttitle }}</h1>
+							<p class='blogdate'><time datetime="{{ .Date }}">{{ .Date.Format "2nd January, 2006"}}</time></p>
+							<hr>
+							{{ .Content }}
+						</article>
+					</div>
+{{ partial "bottom" . }}
