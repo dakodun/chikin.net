@@ -7,10 +7,9 @@ before_install:
 script:
   - cd src
   - ../bin/hugo
-  - ls
 
 deploy:
-  local_dir: public
+  local_dir: src/public
   repo: dakodun/dakodun.github.io
   target_branch: master
   provider: pages
