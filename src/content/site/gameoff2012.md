@@ -9,7 +9,7 @@ date = 2012-01-01T00:00:00
 
 <div id="main">
   <p class='blogimportant'>
-    <a href='http://chikin.net/game-off-2012'>Try out the entry</a> or <a href='https://github.com/dakodun/game-off-2012'>view the repository</a>.
+    <a href='https://chikin.net/game-off-2012'>Try out the entry</a> or <a href='https://github.com/dakodun/game-off-2012'>view the repository</a>.
   </p>
 
   <p class='thumbbar'>
