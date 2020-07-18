@@ -66,5 +66,7 @@ function addListener(...names) {
   }
 }
 
-addListener("bee", "sea");
-setTheme(currentTheme);
+window.onload = function() {
+  addListener("bee", "sea");
+  setTheme(currentTheme);
+};
