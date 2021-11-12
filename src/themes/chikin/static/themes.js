@@ -62,7 +62,10 @@ function setTheme(theme) {
 
 function addListener(...names) {
   for (let i = 0; i < names.length; ++i) {
-    document.querySelector('#theme-button-'+ names[i]).addEventListener('click', () => setTheme(names[i]), false);
+    let ele = document.querySelector('#theme-button-' + names[i]);
+    if (ele != null) {
+      ele.addEventListener('click', () => setTheme(names[i]), false);
+    }
   }
 }
 

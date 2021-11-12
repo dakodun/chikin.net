@@ -1,6 +1,5 @@
 +++
-title = "SolastJS (JavaScript Game Engine)"
-date = 2021-11-12T21:07:07+01:00
+layout = "single"
 
 [menu.main]
 	name = "SOLASTJS"
@@ -9,11 +8,11 @@ date = 2021-11-12T21:07:07+01:00
 
 <div id="main">
   <p class='blogimportant'>
-    
+    <img class='thumb' src='/site/solastjs/solastjs_logo.png' title='solastjs_logo' width='190px' height='190px'></img><br>
+    <a href='https://github.com/dakodun/solastjs'>View the repository.</a><br>
   </p>
 
   <p class='blogpost'>
-      
+      <img
   </p>
 </div>
-
