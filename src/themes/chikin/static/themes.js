@@ -1,4 +1,4 @@
-var currentTheme = "bee";
+var currentTheme = "sea";
 
 function lsTest() {
     var test = 'test';

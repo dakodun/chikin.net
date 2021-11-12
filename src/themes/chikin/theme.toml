@@ -2,10 +2,10 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Chikin"
-license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+license = "zlib"
+licenselink = ""
 description = ""
-homepage = "http://example.com/"
+homepage = ""
 tags = []
 features = []
 min_version = "0.41.0"

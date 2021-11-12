@@ -22,13 +22,13 @@
   --sea-logo-text: Non-sea-nse;
 
   /* default */
-  --theme-background: var(--bee-background);
-  --theme-background-size: var(--bee-background-size);
-  --theme-background-repeat: var(--bee-background-repeat);
+  --theme-background: var(--sea-background);
+  --theme-background-size: var(--sea-background-size);
+  --theme-background-repeat: var(--sea-background-repeat);
 
-  --theme-color-main: var(--bee-color-main);
+  --theme-color-main: var(--sea-color-main);
 
-  --theme-logo: var(--bee-logo);
+  --theme-logo: var(--sea-logo);
 }
 
 
