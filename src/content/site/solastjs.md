@@ -8,7 +8,7 @@ layout = "single"
 
 <div id="main">
   <p class='blogimportant'>
-    <img class='thumb' src='/site/solastjs/solastjs_logo.png' title='solastjs_logo' width='190px' height='190px'></img><br>
+    <img src='/site/solastjs/solastjs_logo.png' title='solastjs_logo' width='190px' height='190px'></img><br>
     <a href='https://github.com/dakodun/solastjs'>View the repository.</a><br>
   </p>
 
