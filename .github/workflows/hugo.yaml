@@ -3,7 +3,7 @@ name: source -> main (via hugo)
 on:
   push:
     branches:
-      - main #source
+      - source
   
   workflow_dispatch:
 
@@ -36,7 +36,7 @@ jobs:
       - name: checkout source
         uses: actions/checkout@v4
         with:
-          ref: main #source
+          ref: source
       
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
