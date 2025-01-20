@@ -56,7 +56,7 @@ jobs:
         run: tar -cvf public.tar ./public
       
       # upload generated content (./public) as artefact
-      - name: upload artifact
+      - name: upload artefact
         uses: actions/upload-artifact@v4
         with:
           name: publictar
@@ -86,7 +86,7 @@ jobs:
 
       # extract files from tar (to current directory)
       - name: extract files
-        run: tar -xvf public.tar --strip-components 1
+        run: tar -xvf public.tar --strip-components 2
 
       # test output
       - name: test output
@@ -101,5 +101,6 @@ jobs:
         run: |
           git config --global user.name 'auto'
           git config --global user.email 'auto@chikin.net'
-          git commit -am "generated from 'source'"
+          git add --all
+          git commit -m "generated from 'source'"
           git push
