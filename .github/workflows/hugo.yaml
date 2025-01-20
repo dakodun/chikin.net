@@ -84,19 +84,22 @@ jobs:
         with:
           name: publictar
 
-      # extract files from tar
+      # extract files from tar (to current directory)
       - name: extract files
-        run: tar -xvf public.tar
+        run: tar -xvf public.tar --strip-components 1
 
       # test output
       - name: test output
         run: ls -R
       
-      # commit and push new files to main branch
-      #- name: Commit report
-      #  run: |
-      #    git config --global user.name 'Your Name'
-      #    git config --global user.email 'your-username@users.noreply.github.com'
-      #    git commit -am "Automated report"
-      #    git push
-      # push to main branch
+      # remove tar file
+      - name: remove public.tar
+        run: rm public.tar
+      
+      # commit/push new files to main
+      - name: commit new files
+        run: |
+          git config --global user.name 'auto'
+          git config --global user.email 'auto@chikin.net'
+          git commit -am "generated from 'source'"
+          git push
